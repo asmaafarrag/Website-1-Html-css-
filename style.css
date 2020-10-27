@@ -1,0 +1,184 @@
+* {
+  margin :0;
+padding:0;
+box-sizing:border-box;
+background-color: #f7f6f4;
+}
+.nav-bar {
+  display:flex;
+height:20vh;
+
+}
+.logo{
+  width:25%;
+height:100px;
+}
+
+.logo h1{
+ line-height:100px;
+padding-left:50px;
+color:#575988;
+cursor:pointer;
+}
+
+.menu-bar{
+width:50%;
+height:100px;
+}
+
+
+.menu-bar ul{
+
+width:100%;
+height:110px;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+align-items:center;
+padding: 0 56px; 
+cursor:pointer;
+
+}
+
+.menu-bar li{
+ list-style:none; 
+font-size:12px;
+font-weight:bold;
+text-transform:uppercase;
+color:#575988;
+} 
+.login{
+ width:25%;
+height:100px;
+line-height:100px;
+padding-left:100px;
+
+
+}
+.login .sign-in{
+font-size: 12px;
+font-weight:bold;
+border-radius:4px;
+padding:11px 17px; 
+color:#4a2469;
+background-color: transparent;
+border:none;
+cursor:pointer;
+
+}
+
+
+
+.login .sign-up{
+font-size: 12px;
+font-weight:bold;
+background-color:#575988;
+border-radius:4px;
+padding:11px 17px; 
+color:#ffff;
+border:none;
+cursor:pointer;
+
+}
+
+.container {
+
+display:flex;
+height: 80vh;
+}
+
+.left{
+
+width 50%;
+padding-left:100px;}
+
+.left h1{
+
+font-size: 2.8rem;
+color: #575988;
+}
+
+.left p{
+
+margin:25px  5px;
+font-size: 18px; 
+font-weight:500;
+color:#4b4a48;
+}
+
+.newsletter{
+
+margin-top:85px;
+}
+
+form{
+overflow:hidden;}
+
+input {
+float:left;
+padding :11px 11px;
+text-align:center;
+font-size:12px;
+letter-spacing: 0.05rem;
+outline:0;
+}
+
+[type=email] {
+margin-bottom:15px;
+border:1px solid #575988;
+}
+
+[type= submit] {
+
+background-color:#575988;
+color:white;
+border:1px solid #575988;
+
+
+}
+
+
+.news{
+
+font-size:13px ;
+
+color:black;
+}
+
+
+.right{
+width:50%;
+margin:40px;
+position: relative; 
+} 
+
+.right img {
+
+width :400px;
+margin-left:75px;
+
+}
+
+
+.right .line{
+position:absolute;
+width:2px;
+height:85px;
+background-color:#57598840;
+right:4px;
+top:240px;
+}
+
+
+.text{
+position: absolute;
+writing-mode:vertical-rl;
+text-orientation:mixed;
+right:-4px;
+top:80px;
+cusror:pointer;}
+
+
+a{
+text-decoration:none;
+color:#575988;}
